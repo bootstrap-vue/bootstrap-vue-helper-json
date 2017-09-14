@@ -1,0 +1,2154 @@
+{
+  "b-alert/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-alert/dismissible": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-alert/dismissLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb/items": {
+    "description": "Array value.",
+    "type": "array"
+  },
+  "b-breadcrumb-item/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-item/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-item/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-item/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-item/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-item/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/text": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-item/ariaCurrent": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-link/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-link/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-link/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-link/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-breadcrumb-link/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/text": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-breadcrumb-link/ariaCurrent": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/block": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/type": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button/pressed": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/block": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/type": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn/pressed": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button-toolbar/justify": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button-toolbar/keyNav": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn-toolbar/justify": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn-toolbar/keyNav": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button-group/vertical": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-button-group/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button-group/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-button-group/ariaRole": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn-group/vertical": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-btn-group/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn-group/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-btn-group/ariaRole": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/state": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/left": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/right": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-addon/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-addon/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-button/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-button/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-btn/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-input-group-btn/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-col/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-col/col": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-col/alignSelf": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-container/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-container/fluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card/bodyTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/bodyBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/bodyBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/bodyTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/titleTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/subTitle": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/subTitleTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/overlay": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card/headerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/headerBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/headerBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/headerTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/header": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/footerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/footerBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/footerBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/footerTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/footer": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/imgSrc": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/imgAlt": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/imgTop": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card/imgBottom": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card/imgFluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/bgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/borderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/textVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/align": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card/noBody": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-body/bodyTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/bodyBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/bodyBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/bodyTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/titleTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/subTitle": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/subTitleTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-body/overlay": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-header/headerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-header/headerBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-header/headerBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-header/headerTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-header/header": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-footer/footerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-footer/footerBgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-footer/footerBorderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-footer/footerTextVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-footer/footer": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-group/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-group/deck": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-group/columns": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-img/src": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-img/alt": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-card-img/top": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-img/bottom": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-card-img/fluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown/split": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown/toggleText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown/role": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd/split": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd/toggleText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd/role": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-item/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-item-button/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item-btn/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dd-item-button/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-item-btn/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-dropdown-divider/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-divider/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-header/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dropdown-header/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-header/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-dd-header/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form/inline": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form/novalidate": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form/validated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-row/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-text/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-text/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-text/textVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-text/inline": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-feedback/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-feedback/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-checkbox/indeterminate": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-checkbox/button": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-checkbox/buttonVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/labelFor": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/validated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-group/horizontal": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-group/labelCols": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-form-group/breakpoint": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/labelTextAlign": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/label": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/labelSrOnly": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-group/description": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-group/feedback": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/labelFor": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/validated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-fieldset/horizontal": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-fieldset/labelCols": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-form-fieldset/breakpoint": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/labelTextAlign": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/label": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/labelSrOnly": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-fieldset/description": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-fieldset/feedback": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-file/accept": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-file/capture": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-file/placeholder": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-file/chooseLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-file/multiple": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-file/directory": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-file/noTraverse": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-file/selectedFormat": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-file/noDrop": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-file/dropLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-radio/validated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-radio/stacked": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-radio/buttons": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-radio/buttonVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-input/type": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-input/readonly": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-input/plaintext": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-input/autocomplete": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-input/placeholder": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-input/formatter": {
+    "description": "Function value.",
+    "type": "function"
+  },
+  "b-form-input/lazyFormatter": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-textarea/value": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-textarea/readonly": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-textarea/plaintext": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-textarea/autocomplete": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-textarea/placeholder": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-textarea/rows": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-form-textarea/maxRows": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-form-textarea/wrap": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-form-select/multiple": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-form-select/selectSize": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-img/src": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img/alt": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img/block": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/fluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/fluidGrow": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/thumbnail": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/left": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/right": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/center": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/blank": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img/blankColor": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img-lazy/src": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img-lazy/blankSrc": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img-lazy/blankColor": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-img-lazy/fluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/fluidGrow": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/block": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/thumbnail": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/left": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/right": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-img-lazy/center": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-jumbotron/fluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-jumbotron/containerFluid": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-jumbotron/header": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/headerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/headerLevel": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-jumbotron/lead": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/leadTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/bgVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/borderVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-jumbotron/textVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-badge/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-badge/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-badge/pill": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-media/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-media/rightAlign": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-media/verticalAlign": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-media/noBody": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-media-body/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-media-aside/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-media-aside/verticalAlign": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/titleTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/buttonSize": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/noFade": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/noCloseOnBackdrop": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/noCloseOnEsc": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/noAutoFocus": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/noEnforceFocus": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/hideHeader": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/hideFooter": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/hideHeaderClose": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/okOnly": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/okDisabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/visible": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-modal/headerCloseLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/closeTitle": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-modal/okTitle": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/type": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/toggleBreakpoint": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/fixed": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar/sticky": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-navbar-brand/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-navbar-brand/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-text/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-form/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-row/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-row/noGutters": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-row/alignV": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-row/alignH": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-row/alignContent": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination/limit": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination/perPage": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination/totalRows": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/align": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/hideGotoEndButtons": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination/ariaLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/labelFirstPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/firstText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/labelPrevPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/prevText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/labelNextPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/nextText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/labelLastPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/lastText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/labelPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/hideEllipsis": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination/ellipsisText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination/ariaControls": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/numberOfPages": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination-nav/baseUrl": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/useRouter": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/linkGen": {
+    "description": "Function value.",
+    "type": "function"
+  },
+  "b-pagination-nav/pageGen": {
+    "description": "Function value.",
+    "type": "function"
+  },
+  "b-pagination-nav/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination-nav/limit": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-pagination-nav/size": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/align": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/hideGotoEndButtons": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/ariaLabel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/labelFirstPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/firstText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/labelPrevPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/prevText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/labelNextPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/nextText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/labelLastPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/lastText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/labelPage": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/hideEllipsis": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/ellipsisText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-pagination-nav/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-pagination-nav/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-popover/targetId": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-popover/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-popover/content": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-popover/placement": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-popover/delay": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-popover/noFade": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress-bar/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-progress-bar/label": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-progress-bar/max": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-progress-bar/precision": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-progress-bar/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-progress-bar/striped": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress-bar/animated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress-bar/showProgress": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress-bar/showValue": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress-bar/height": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-progress/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-progress/striped": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress/animated": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress/height": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-progress/precision": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-progress/showProgress": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress/showValue": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-progress/max": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-progress/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-table/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/sortBy": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/sortDesc": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/apiUrl": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/striped": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/bordered": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/inverse": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/hover": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/small": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/responsive": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/headVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/footVariant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/perPage": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-table/currentPage": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-table/sortCompare": {
+    "description": "Function value.",
+    "type": "function"
+  },
+  "b-table/noProviderPaging": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/noProviderSorting": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/noProviderFiltering": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/busy": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/value": {
+    "description": "Array value.",
+    "type": "array"
+  },
+  "b-table/footClone": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/labelSortAsc": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/labelSortDesc": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/showEmpty": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-table/emptyText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-table/emptyFilteredText": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tooltip/targetId": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tooltip/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tooltip/placement": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tooltip/delay": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-tooltip/noFade": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tab/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tab/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tab/buttonId": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tab/title": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tab/headHtml": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tab/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tab/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tabs/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-tabs/card": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tabs/small": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tabs/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-tabs/pills": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tabs/bottom": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tabs/noFade": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-tabs/lazy": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav/fill": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/justified": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/tabs": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/pills": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/vertical": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav/isNavBar": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-item-dropdown/noCaret": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-nav-item-dropdown/role": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-toggle/label": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-nav-toggle/position": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group-item/action": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-list-group-item/variant": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-list-group/flush": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-carousel-slide/imgSrc": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/src": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/imgAlt": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/imgBlank": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-carousel-slide/imgBlankColor": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/contentVisibleUp": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/contentTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/caption": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/captionTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/text": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/textTag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel-slide/background": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/labelPrev": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/labelNext": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/labelGotoSlide": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/labelIndicators": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/interval": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-carousel/indicators": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-carousel/controls": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-carousel/background": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-carousel/value": {
+    "description": "Number value.",
+    "type": "number"
+  },
+  "b-collapse/id": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-collapse/isNav": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-collapse/accordion": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-collapse/visible": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-collapse/tag": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/href": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/rel": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/target": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/active": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-link/activeClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/append": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-link/disabled": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-link/exact": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-link/exactActiveClass": {
+    "description": "String value.",
+    "type": "string"
+  },
+  "b-link/replace": {
+    "description": "Boolean value.",
+    "type": "boolean"
+  },
+  "b-link/routerTag": {
+    "description": "String value.",
+    "type": "string"
+  }
+}

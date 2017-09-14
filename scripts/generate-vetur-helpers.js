@@ -1,10 +1,20 @@
 #!/usr/bin/env node
 const { resolve } = require("path")
 const { readFileSync, existsSync, writeFile } = require("fs")
-const { kebabCase } = require("lodash")
+const { kebabCase, noop } = require("lodash")
+const EOL = require("os").EOL
 const BV = require("bootstrap-vue/dist/bootstrap-vue")
 const cache = Object.create(null)
-cache["element-tags"] = {}
+cache.tags = {}
+cache.attributes = {}
+const PropTypeMap = new Map([
+  [String, { description: "String value.", type: "string" }],
+  [Boolean, { description: "Boolean value.", type: "boolean" }],
+  [Number, { description: "Number value.", type: "number" }],
+  [Array, { description: "Array value.", type: "array" }],
+  [Object, { description: "Object value.", type: "object" }],
+  [Function, { description: "Function value.", type: "function" }]
+])
 
 class JsonSet extends Set {
   toJSON() {
@@ -18,6 +28,50 @@ function $writeFile(path, data, options) {
       err ? reject(err) : resolve()
     })
   })
+}
+
+function reduceTags({ tagName, metaDoc }) {
+  return function reducerFn(meta, prop) {
+    meta.attributes.add(kebabCase(prop))
+    meta.description = metaDoc.description || `Bootstrap-Vue component: <${tagName}>`
+
+    if (metaDoc.components) {
+      metaDoc.components.map(name => meta.subtags.add(kebabCase(name)))
+    }
+    if (metaDoc.events) {
+      metaDoc.events.map(e => meta.attributes.add(e.event))
+    }
+
+    return meta
+  }
+}
+
+function reduceAttrs({ props, tagName, metaDoc }) {
+  return function reducerFn(meta, prop) {
+    const entry = {}
+    // Namespace component props by component.
+    const nsKey = `${tagName}/${prop}`
+    const value = props[prop].type
+    if (Array.isArray(value)) {
+      const types = value.map(val => (PropTypeMap.get(val) || {}).type)
+      const type = types.join("|")
+      let description = "One of "
+      if (types.length == 2) {
+        description += `${types[0]} or ${types[1]}.`
+      }
+      for (let i = 0; i < types.length; i++) {
+        if (i < types.length - 1) {
+          description += `${types[i]}, `
+        } else {
+          description += ` and ${types[i]}`
+        }
+      }
+    } else {
+      entry[nsKey] = PropTypeMap.get(value)
+    }
+
+    return Object.assign({}, meta, entry)
+  }
 }
 
 function cacheLibMeta() {
@@ -37,31 +91,24 @@ function cacheLibMeta() {
       if (existsSync(metapath)) {
         metaDoc = JSON.parse(readFileSync(metapath))
       }
-      cache["element-tags"][tagName] = Object.keys(def.props || {}).reduce(
-        (meta, prop) => {
-          meta.attributes.add(kebabCase(prop))
-          meta.description = metaDoc.description || `Bootstrap-Vue component: <${tagName}>`
-
-          if (metaDoc.components) {
-            metaDoc.components.map(name => meta.subtags.add(kebabCase(name)))
-          }
-          if (metaDoc.events) {
-            metaDoc.events.map(e => meta.attributes.add(e.event))
-          }
-
-          return meta
-        },
-        { attributes: new JsonSet(), subtags: new JsonSet(), description: "" }
+      cache.tags[tagName] = Object.keys(def.props || {}).reduce(reduceTags({ tagName, metaDoc }), {
+        attributes: new JsonSet(),
+        subtags: new JsonSet(),
+        description: ""
+      })
+      Object.assign(
+        cache.attributes,
+        Object.keys(def.props || {}).reduce(reduceAttrs({ tagName, props: def.props, metaDoc }), cache.attributes)
       )
     },
-    directive(name, def) {} // noop for now
+    directive: noop
   })
 }
 
 function main() {
   cacheLibMeta()
   for (const basename in cache) {
-    $writeFile(resolve(__dirname, "..", `${basename}.json`), JSON.stringify(cache[basename], null, 2)).catch(
+    $writeFile(resolve(__dirname, "..", `${basename}.json`), JSON.stringify(cache[basename], null, 2) + EOL).catch(
       console.error
     )
   }
