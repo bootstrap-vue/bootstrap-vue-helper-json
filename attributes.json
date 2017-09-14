@@ -11,6 +11,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-alert/show": {
+    "description": "One of boolean or number.",
+    "type": "boolean|number"
+  },
   "b-breadcrumb/items": {
     "description": "Array value.",
     "type": "array"
@@ -43,6 +47,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-breadcrumb-item/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-breadcrumb-item/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -58,6 +66,10 @@
   "b-breadcrumb-item/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-breadcrumb-item/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-breadcrumb-item/text": {
     "description": "String value.",
@@ -95,6 +107,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-breadcrumb-link/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-breadcrumb-link/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -110,6 +126,10 @@
   "b-breadcrumb-link/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-breadcrumb-link/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-breadcrumb-link/text": {
     "description": "String value.",
@@ -147,6 +167,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-button/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-button/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -162,6 +186,10 @@
   "b-button/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-button/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-button/block": {
     "description": "Boolean value.",
@@ -211,6 +239,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-btn/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-btn/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -226,6 +258,10 @@
   "b-btn/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-btn/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-btn/block": {
     "description": "Boolean value.",
@@ -343,6 +379,54 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-col/sm": {
+    "description": "One of boolean, string, or number.",
+    "type": "boolean|string|number"
+  },
+  "b-col/md": {
+    "description": "One of boolean, string, or number.",
+    "type": "boolean|string|number"
+  },
+  "b-col/lg": {
+    "description": "One of boolean, string, or number.",
+    "type": "boolean|string|number"
+  },
+  "b-col/xl": {
+    "description": "One of boolean, string, or number.",
+    "type": "boolean|string|number"
+  },
+  "b-col/offsetSm": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/offsetMd": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/offsetLg": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/offsetXl": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/orderSm": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/orderMd": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/orderLg": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/orderXl": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
   "b-col/tag": {
     "description": "String value.",
     "type": "string"
@@ -350,6 +434,18 @@
   "b-col/col": {
     "description": "Boolean value.",
     "type": "boolean"
+  },
+  "b-col/cols": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/offset": {
+    "description": "One of string or number.",
+    "type": "string|number"
+  },
+  "b-col/order": {
+    "description": "One of string or number.",
+    "type": "string|number"
   },
   "b-col/alignSelf": {
     "description": "String value.",
@@ -419,6 +515,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-card/headerClass": {
+    "description": "One of string, object, or array.",
+    "type": "string|object|array"
+  },
   "b-card/footerTag": {
     "description": "String value.",
     "type": "string"
@@ -438,6 +538,10 @@
   "b-card/footer": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-card/footerClass": {
+    "description": "One of string, object, or array.",
+    "type": "string|object|array"
   },
   "b-card/imgSrc": {
     "description": "String value.",
@@ -539,6 +643,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-card-header/headerClass": {
+    "description": "One of string, object, or array.",
+    "type": "string|object|array"
+  },
   "b-card-footer/footerTag": {
     "description": "String value.",
     "type": "string"
@@ -558,6 +666,10 @@
   "b-card-footer/footer": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-card-footer/footerClass": {
+    "description": "One of string, object, or array.",
+    "type": "string|object|array"
   },
   "b-card-group/tag": {
     "description": "String value.",
@@ -659,6 +771,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-dropdown-item/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-dropdown-item/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -674,6 +790,10 @@
   "b-dropdown-item/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-dropdown-item/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-dd-item/href": {
     "description": "String value.",
@@ -703,6 +823,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-dd-item/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-dd-item/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -718,6 +842,10 @@
   "b-dd-item/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-dd-item/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-dropdown-item-button/disabled": {
     "description": "Boolean value.",
@@ -935,9 +1063,17 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-form-radio/options": {
+    "description": "One of array or object.",
+    "type": "array|object"
+  },
   "b-form-radio/validated": {
     "description": "Boolean value.",
     "type": "boolean"
+  },
+  "b-form-radio/ariaInvalid": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
   },
   "b-form-radio/stacked": {
     "description": "Boolean value.",
@@ -954,6 +1090,10 @@
   "b-form-input/type": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-form-input/ariaInvalid": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
   },
   "b-form-input/readonly": {
     "description": "Boolean value.",
@@ -983,6 +1123,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-form-textarea/ariaInvalid": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
+  },
   "b-form-textarea/readonly": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1011,6 +1155,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-form-select/options": {
+    "description": "One of array or object.",
+    "type": "array|object"
+  },
   "b-form-select/multiple": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1019,6 +1167,10 @@
     "description": "Number value.",
     "type": "number"
   },
+  "b-form-select/ariaInvalid": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
+  },
   "b-img/src": {
     "description": "String value.",
     "type": "string"
@@ -1026,6 +1178,14 @@
   "b-img/alt": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-img/width": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-img/height": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-img/block": {
     "description": "Boolean value.",
@@ -1038,6 +1198,10 @@
   "b-img/fluidGrow": {
     "description": "Boolean value.",
     "type": "boolean"
+  },
+  "b-img/rounded": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
   },
   "b-img/thumbnail": {
     "description": "Boolean value.",
@@ -1067,6 +1231,14 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-img-lazy/width": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-img-lazy/height": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
   "b-img-lazy/blankSrc": {
     "description": "String value.",
     "type": "string"
@@ -1074,6 +1246,14 @@
   "b-img-lazy/blankColor": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-img-lazy/blankWidth": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-img-lazy/blankHeight": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-img-lazy/fluid": {
     "description": "Boolean value.",
@@ -1091,6 +1271,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-img-lazy/rounded": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
+  },
   "b-img-lazy/left": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1102,6 +1286,14 @@
   "b-img-lazy/center": {
     "description": "Boolean value.",
     "type": "boolean"
+  },
+  "b-img-lazy/offset": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-img-lazy/throttle": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-jumbotron/fluid": {
     "description": "Boolean value.",
@@ -1275,6 +1467,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-navbar/toggleable": {
+    "description": "One of boolean or string.",
+    "type": "boolean|string"
+  },
   "b-navbar/toggleBreakpoint": {
     "description": "String value.",
     "type": "string"
@@ -1315,6 +1511,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-navbar-brand/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-navbar-brand/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1330,6 +1530,10 @@
   "b-navbar-brand/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-navbar-brand/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-navbar-brand/tag": {
     "description": "String value.",
@@ -1567,6 +1771,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-popover/target": {
+    "description": "One of string or object.",
+    "type": "string|object"
+  },
   "b-popover/targetId": {
     "description": "String value.",
     "type": "string"
@@ -1579,6 +1787,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-popover/triggers": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-popover/placement": {
     "description": "String value.",
     "type": "string"
@@ -1586,6 +1798,10 @@
   "b-popover/delay": {
     "description": "Number value.",
     "type": "number"
+  },
+  "b-popover/offset": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-popover/noFade": {
     "description": "Boolean value.",
@@ -1671,6 +1887,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-table/items": {
+    "description": "One of array or function.",
+    "type": "array|function"
+  },
   "b-table/sortBy": {
     "description": "String value.",
     "type": "string"
@@ -1682,6 +1902,10 @@
   "b-table/apiUrl": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-table/fields": {
+    "description": "One of object or array.",
+    "type": "object|array"
   },
   "b-table/striped": {
     "description": "Boolean value.",
@@ -1722,6 +1946,10 @@
   "b-table/currentPage": {
     "description": "Number value.",
     "type": "number"
+  },
+  "b-table/filter": {
+    "description": "One of string, RegExp, or function.",
+    "type": "string|RegExp|function"
   },
   "b-table/sortCompare": {
     "description": "Function value.",
@@ -1771,6 +1999,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-tooltip/target": {
+    "description": "One of string or object.",
+    "type": "string|object"
+  },
   "b-tooltip/targetId": {
     "description": "String value.",
     "type": "string"
@@ -1779,6 +2011,10 @@
     "description": "String value.",
     "type": "string"
   },
+  "b-tooltip/triggers": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-tooltip/placement": {
     "description": "String value.",
     "type": "string"
@@ -1786,6 +2022,10 @@
   "b-tooltip/delay": {
     "description": "Number value.",
     "type": "number"
+  },
+  "b-tooltip/offset": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-tooltip/noFade": {
     "description": "Boolean value.",
@@ -1907,6 +2147,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-nav-item/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-nav-item/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1922,6 +2166,10 @@
   "b-nav-item/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-nav-item/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-nav-item-dropdown/noCaret": {
     "description": "Boolean value.",
@@ -1967,6 +2215,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-list-group-item/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-list-group-item/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -1982,6 +2234,10 @@
   "b-list-group-item/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-list-group-item/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   },
   "b-list-group-item/tag": {
     "description": "String value.",
@@ -2014,6 +2270,14 @@
   "b-carousel-slide/imgAlt": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-carousel-slide/imgWidth": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-carousel-slide/imgHeight": {
+    "description": "One of number or string.",
+    "type": "number|string"
   },
   "b-carousel-slide/imgBlank": {
     "description": "Boolean value.",
@@ -2079,6 +2343,14 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-carousel/imgWidth": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
+  "b-carousel/imgHeight": {
+    "description": "One of number or string.",
+    "type": "number|string"
+  },
   "b-carousel/background": {
     "description": "String value.",
     "type": "string"
@@ -2135,6 +2407,10 @@
     "description": "Boolean value.",
     "type": "boolean"
   },
+  "b-link/event": {
+    "description": "One of string or array.",
+    "type": "string|array"
+  },
   "b-link/exact": {
     "description": "Boolean value.",
     "type": "boolean"
@@ -2150,5 +2426,9 @@
   "b-link/routerTag": {
     "description": "String value.",
     "type": "string"
+  },
+  "b-link/to": {
+    "description": "One of string or object.",
+    "type": "string|object"
   }
 }

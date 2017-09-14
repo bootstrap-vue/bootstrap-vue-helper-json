@@ -13,7 +13,9 @@ const PropTypeMap = new Map([
   [Number, { description: "Number value.", type: "number" }],
   [Array, { description: "Array value.", type: "array" }],
   [Object, { description: "Object value.", type: "object" }],
-  [Function, { description: "Function value.", type: "function" }]
+  [Function, { description: "Function value.", type: "function" }],
+  [RegExp, { description: "RegExp value.", type: "RegExp" }],
+  [Date, { description: "Date value.", type: "Date" }]
 ])
 
 class JsonSet extends Set {
@@ -53,18 +55,30 @@ function reduceAttrs({ props, tagName, metaDoc }) {
     const nsKey = `${tagName}/${prop}`
     const value = props[prop].type
     if (Array.isArray(value)) {
-      const types = value.map(val => (PropTypeMap.get(val) || {}).type)
+      const types = value.map(val => {
+        const v = PropTypeMap.get(val)
+        if (!PropTypeMap.has(val)) {
+          console.error(nsKey, v)
+        } else {
+          return PropTypeMap.get(val).type
+        }
+      })
       const type = types.join("|")
       let description = "One of "
       if (types.length == 2) {
         description += `${types[0]} or ${types[1]}.`
-      }
-      for (let i = 0; i < types.length; i++) {
-        if (i < types.length - 1) {
-          description += `${types[i]}, `
-        } else {
-          description += ` and ${types[i]}`
+      } else {
+        for (let i = 0; i < types.length; i++) {
+          if (i < types.length - 1) {
+            description += `${types[i]}, `
+          } else {
+            description += `or ${types[i]}.`
+          }
         }
+      }
+      entry[nsKey] = {
+        description,
+        type
       }
     } else {
       entry[nsKey] = PropTypeMap.get(value)
