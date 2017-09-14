@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-vue-helper-json",
-  "version": "1.0.0-beta.7",
+  "version": "1.0.0",
   "description": "Bootstrap-Vue/Vetur intellisense reference definitions.",
   "main": "element-tags.json",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/bootstrap-vue/bootstrap-vue-helper-json.git"
   },
-  "keywords": ["bootstrap", "bootstrap-vue", "plugin", "vetur"],
+  "keywords": [
+    "bootstrap",
+    "bootstrap-vue",
+    "plugin",
+    "vetur"
+  ],
   "author": "Alex Regan <alex.joseph.regan@gmail.com> (https://github.com/alexsasharegan)",
   "license": "MIT",
   "bugs": {
