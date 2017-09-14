@@ -2,7 +2,7 @@
   "name": "bootstrap-vue-helper-json",
   "version": "1.0.0",
   "description": "Bootstrap-Vue/Vetur intellisense reference definitions.",
-  "main": "element-tags.json",
+  "main": "tags.json",
   "scripts": {
     "build": "scripts/generate-vetur-helpers.js"
   },
