@@ -50,9 +50,10 @@ function reduceTags({ tagName, metaDoc }) {
 
 function reduceAttrs({ props, tagName, metaDoc }) {
   return function reducerFn(meta, prop) {
+    const kebabCaseProp = kebabCase(prop)
     const entry = {}
     // Namespace component props by component.
-    const nsKey = `${tagName}/${prop}`
+    const nsKey = `${tagName}/${kebabCaseProp}`
     const value = props[prop].type
     if (Array.isArray(value)) {
       const types = value.map(val => {
