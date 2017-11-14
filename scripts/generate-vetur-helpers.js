@@ -89,35 +89,40 @@ function reduceAttrs({ props, tagName, metaDoc }) {
   }
 }
 
+const Vue = (function() {
+  const v = Object.create(null)
+  v.directive = noop
+  v.use = plugin => plugin.install(v)
+  v.component = (name, def) => {
+    const tagName = kebabCase(name)
+    const metapath = resolve(
+      require.resolve("bootstrap-vue"),
+      "/docs/components/",
+      tagName
+        .split("-")
+        .filter(s => s !== "b")
+        .join("-"),
+      "meta.json"
+    )
+    let metaDoc = {}
+    if (existsSync(metapath)) {
+      metaDoc = JSON.parse(readFileSync(metapath))
+    }
+    cache.tags[tagName] = Object.keys(def.props || {}).reduce(reduceTags({ tagName, metaDoc }), {
+      attributes: new JsonSet(),
+      subtags: new JsonSet(),
+      description: ""
+    })
+    Object.assign(
+      cache.attributes,
+      Object.keys(def.props || {}).reduce(reduceAttrs({ tagName, props: def.props, metaDoc }), cache.attributes)
+    )
+  }
+  return v
+})()
+
 function cacheLibMeta() {
-  BV.install({
-    component(name, def) {
-      const tagName = kebabCase(name)
-      const metapath = resolve(
-        require.resolve("bootstrap-vue"),
-        "/docs/components/",
-        tagName
-          .split("-")
-          .filter(s => s !== "b")
-          .join("-"),
-        "meta.json"
-      )
-      let metaDoc = {}
-      if (existsSync(metapath)) {
-        metaDoc = JSON.parse(readFileSync(metapath))
-      }
-      cache.tags[tagName] = Object.keys(def.props || {}).reduce(reduceTags({ tagName, metaDoc }), {
-        attributes: new JsonSet(),
-        subtags: new JsonSet(),
-        description: ""
-      })
-      Object.assign(
-        cache.attributes,
-        Object.keys(def.props || {}).reduce(reduceAttrs({ tagName, props: def.props, metaDoc }), cache.attributes)
-      )
-    },
-    directive: noop
-  })
+  BV.install(Vue)
 }
 
 function main() {
