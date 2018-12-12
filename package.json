@@ -24,7 +24,7 @@
   "homepage": "https://github.com/bootstrap-vue/bootstrap-vue-helper-json#readme",
   "devDependencies": {
     "bootstrap-vue": "^1.5.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.11",
     "vue": "^2.5.21"
   }
 }
